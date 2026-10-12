@@ -1,4 +1,4 @@
-# Lead Capture Workflow (with CRM Integration + Automated Notification)
+# Lead Capture Automation
 
 This is an n8n workflow that turns a form submission into a lead which is validated, logged to a CRM, forwarded to the team on Slack, and acknowledged with an automatic email. Bad form submissions are handled with a proper failure path instead of silently dropping them.
 
