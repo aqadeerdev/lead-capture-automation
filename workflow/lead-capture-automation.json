@@ -1,5 +1,5 @@
 {
-  "name": "Lead Capture Workflow",
+  "name": "Lead Capture Automation",
   "nodes": [
     {
       "parameters": {
@@ -183,7 +183,7 @@
     },
     {
       "parameters": {
-        "fromEmail": "contact@company.com",
+        "fromEmail": "company@mail.com",
         "toEmail": "={{ $('Validate').item.json.email }}",
         "subject": "Thanks for reaching out.",
         "html": "=<p>Hi {{ $('Validate').item.json.fullName }},</p>\n<p>Thanks for reaching out! We will get back to you shortly.</p>\n<p>Team Lead Bot</p>",
@@ -323,7 +323,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "f33f578b-e3d0-4bda-9198-afd648a97297",
+  "versionId": "a73e0519-0908-4ef1-bc22-6cf69753305a",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "fab56c544a556628ec92598be495d2fbabd06404d2473c2397b24a85271f9f20"
